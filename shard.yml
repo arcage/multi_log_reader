@@ -1,0 +1,9 @@
+name: multi_log_reader
+version: 0.1.0
+
+authors:
+  - ʕ·ᴥ·ʔAKJ <arcage@denchu.org>
+
+crystal: 0.21.1
+
+license: MIT
