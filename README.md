@@ -13,7 +13,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   multi_log_reader:
-    github: [your-github-name]/multi_log_reader
+    github: arcage/multi_log_reader
 ```
 
 ## Usage
