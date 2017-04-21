@@ -5,7 +5,7 @@ class MultiLogReader
     @missed : Bool
 
     getter path
-    getter gone
+    getter missed
 
     def initialize(@path)
       @missed = false

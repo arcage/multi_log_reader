@@ -26,7 +26,7 @@ class MultiLogReader
     initialize(log_files)
   end
 
-  def initialize(*log_files : Enumerable(String))
+  def initialize(log_files : Enumerable(String))
     @missing_all = false
     @log_files = [] of LogFile
     log_files.each do |pattern|
@@ -66,7 +66,7 @@ class MultiLogReader
 
   def missing_all?
     @log_files.each do |log_file|
-      return false unless log_file.gone
+      return false unless log_file.missed
     end
     return true
   end
