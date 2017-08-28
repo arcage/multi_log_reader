@@ -41,7 +41,7 @@ class MultiLogReader
       end
     end
 
-    private def ino : UInt32
+    private def ino
       @io.stat.ino
     end
 
